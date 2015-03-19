@@ -5,7 +5,7 @@ Credits to @lukeredpath for the gem & @subdigital for sharing the knowledge.  ht
 
 ##Usage
 ```
-ruby xcode-codesnippets/convert_to_codesnippet.rb FILENAME
+ruby mattt/convert_to_codesnippet.rb FILENAME
 ```
 
 restart xcode.
