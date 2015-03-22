@@ -3,27 +3,19 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>singleton</string>
+	<string>cellId</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>ClassImplementation</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>+ (instancetype)sharedManager {
-    static id instance;
-    static dispatch_once_t onceToken;
-    dispatch_once(&amp;onceToken, ^{
-        instance = [[self alloc] init];
-    });
-    
-    return instance;
-}</string>
+	<string>static NSString *kCellId = &lt;#cellId#&gt;</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>822FF28D-412A-4ABC-A689-09C13A0C7837</string>
+	<string>28BB1F53-2392-4FE8-89CE-582B2085266F</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>Shared Singleton</string>
+	<string>cellId</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
