@@ -1,3 +1,6 @@
 [submodule "mattt"]
 	path = mattt
 	url = https://github.com/mattt/Xcode-Snippets.git
+[submodule "burczyk"]
+	path = burczyk
+	url = https://github.com/burczyk/XcodeSwiftSnippets.git
